@@ -66,7 +66,7 @@ nav ul li a{
 main{
     background-image: url("https://i.pinimg.com/originals/5a/7f/1e/5a7f1eff255d5e1d91e542d67c8be256.jpg");
     background-size: cover;
-    filter: blur(10px);
+    /* filter: blur(10px); */
     /* -webkit-blur:blur(10px); */
 }
 .typed {
