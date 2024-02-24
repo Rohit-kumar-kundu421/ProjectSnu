@@ -96,6 +96,8 @@ main{
     .style{
         font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
+    margin: 2vw;
+    padding: 1vw;
     }
     .feedback{
         
@@ -108,11 +110,11 @@ footer{
     font-optical-sizing: auto;
 }
 .water{
-    /* text-align: right; */
     margin-left: 80%;
-    /* padding:  1px 1px 1px 1px; */
+    
     margin-right: 1px;
 }
+/* It is not use */
 .about-water{
     text-align: left;
     border: 5vw;
