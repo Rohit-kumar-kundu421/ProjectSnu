@@ -1,0 +1,30 @@
+@media screen and (max-width:600px) {
+    nav {
+        
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        
+    }
+    nav ul li{
+        font-size: large;
+    }
+    /* .logo{
+        
+    } */
+}
+@media screen and (max-width:500px){
+    nav ul li{
+        font-size: medium;
+    }
+}
+@media screen and (max-width:430px){
+    nav ul li{
+        font-size: small;
+    }
+}
+@media screen and (max-width:430px){
+    .typed{
+        font-size: x-large;
+    }
+}
