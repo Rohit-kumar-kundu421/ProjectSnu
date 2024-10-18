@@ -9,4 +9,11 @@ This is a openSource contribution repository.
 * To enhancr you website
 
 
-### You have to contribut in React file. 
+## You have to contribut in React file. 
+
+# How to open
+* Open your code editor terminal
+* git clone https://github.com/Rohit-kumar-kundu421/ProjectSnu.git
+* cd "ProjectSnu"
+* cd "projectSnuReact"
+* Under projectSnuReact you can see SRC file. In this file you have to make component..
