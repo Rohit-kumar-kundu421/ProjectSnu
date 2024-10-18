@@ -18,12 +18,12 @@ This is a openSource contribution repository.
 git clone https://github.com/Rohit-kumar-kundu421/ProjectSnu.git 
  ```
 ```
-* cd "ProjectSnu"
+cd "ProjectSnu"
 ```
 ```
 npm i
 ```
 ```
-* cd "projectSnuReact"
+cd "projectSnuReact"
 ```
 * Under projectSnuReact you can see SRC file. In this file you have to make component..
