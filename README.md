@@ -13,11 +13,13 @@ This is a openSource contribution repository.
 
 # How to open
 * Open your code editor terminal
-  ```bash
-  
-* git clone https://github.com/Rohit-kumar-kundu421/ProjectSnu.git
 
-  ````
+  ```bash
+  git clone https://github.com/Rohit-kumar-kundu421/ProjectSnu.git
+```
+npm i
+```
+
 * cd "ProjectSnu"
 * cd "projectSnuReact"
 * Under projectSnuReact you can see SRC file. In this file you have to make component..
