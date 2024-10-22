@@ -166,3 +166,101 @@ footer {
     justify-content: center;
     height: 200px;
 }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #57A0D2;
+    color: white;
+    height: 55px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    height: calc(100vh - 80px);
+}
+
+.image-section {
+    flex: 1;
+    background-image: url('https://images.pexels.com/photos/15469266/pexels-photo-15469266/free-photo-of-a-close-up-of-water-ripples-with-a-blue-sky.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+}
+
+.content-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: #25649b;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: #25649b;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #57A0D2;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+footer p {
+    margin: 0;
+}
