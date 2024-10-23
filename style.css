@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto+Slab:wght@100..900&display=swap');
+
 
 * {
     margin: 0;
@@ -274,4 +276,13 @@ html {
     to {
         width: 100%;
     }
+}
+.h1,
+.h2
+.h3,
+.style {
+    color: #000000;
+}
+.typed1 {
+    color: #000000;
 }
