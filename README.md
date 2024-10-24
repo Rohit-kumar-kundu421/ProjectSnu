@@ -1,15 +1,15 @@
 ## Project SNU
 
-# Welcome  to My repository, a community-driven repository for open-source contributions. We're excited to have.
+# Welcome  to My Repository, a community-driven repository for open-source contributions. We're excited to have it.
 
 Hello,
-This is a openSource contribution repository.
+This is an open-source contribution repository.
 
 # You can contribution 
-* To enhancr you website
+* To enhance your website
 
 
-## You have to contribut in React file. 
+## You have to contribute in the React file. 
 
 # How to open
 * Open your code editor terminal
@@ -26,4 +26,4 @@ npm i
 ```
 cd "projectSnuReact"
 ```
-* Under projectSnuReact you can see SRC file. In this file you have to make component..
+* The SRC file can be found under projectSnuReact. You must create a component in this file.
