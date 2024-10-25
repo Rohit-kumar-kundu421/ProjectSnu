@@ -1,11 +1,11 @@
 ## Project SNU
 
-# Welcome  to My Repository, a community-driven repository for open-source contributions. We're excited to have it.
+# Welcome  to My Repository, a community-driven repository for open-source contributions. We're excited to have you.
 
 Hello,
 This is an open-source contribution repository.
 
-# You can contribution 
+# You can contribute
 * To enhance your website
 
 
