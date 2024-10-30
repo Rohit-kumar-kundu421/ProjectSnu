@@ -1,5 +1,7 @@
 🌊 Clean Water and Sanitation
-![Clean Water and Sanitation](https://raw.githubusercontent.com/Rohit-kumar-kundu421/ProjectSnu/main/img/repopic.jpg)
+
+!![Clean Water and Sanitation](https://github.com/deep-ghosh/ProjectSnu/blob/main/img/repopic.jpg)
+
 
 Welcome to the Clean Water and Sanitation project repository! This is a community-driven, open-source initiative aimed at raising awareness and creating solutions for sustainable access to clean water and sanitation.
 
