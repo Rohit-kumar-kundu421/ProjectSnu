@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: white;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.scroll-item {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.idea-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Laptop optimization */
+@media (min-width: 1280px) and (max-width: 1536px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .laptop-optimized {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* Specific optimization for 16.1 inch laptops (typically around 1920x1080) */
+@media (min-width: 1600px) and (max-width: 1920px) {
+  html {
+    font-size: 16px; /* Ensure base font size is comfortable */
+  }
+
+  .container {
+    max-width: 1400px; /* Limit container width for better readability */
+  }
+}
