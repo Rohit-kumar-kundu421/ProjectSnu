@@ -23,7 +23,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/"
-              className={`hover:text-blue-500 transition-colors ${pathname === "/" ? "text-blue-500 font-semibold" : ""}`}
+              className={`text-xl hover:text-blue-500 transition-colors ${pathname === "/" ? "text-blue-500 font-semibold" : ""}`}
             >
               Home
             </Link>
@@ -31,7 +31,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/about"
-              className={`hover:text-blue-500 transition-colors ${pathname === "/about" ? "text-blue-500 font-semibold" : ""}`}
+              className={`text-xl hover:text-blue-500 transition-colors ${pathname === "/about" ? "text-blue-500 font-semibold" : ""}`}
             >
               About
             </Link>
@@ -39,7 +39,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/our-ideas"
-              className={`hover:text-blue-500 transition-colors ${pathname === "/our-ideas" ? "text-blue-500 font-semibold" : ""}`}
+              className={`text-xl hover:text-blue-500 transition-colors ${pathname === "/our-ideas" ? "text-blue-500 font-semibold" : ""}`}
             >
               Our Ideas
             </Link>
@@ -47,7 +47,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/contact"
-              className={`hover:text-blue-500 transition-colors ${pathname === "/contact" ? "text-blue-500 font-semibold" : ""}`}
+              className={`text-xl hover:text-blue-500 transition-colors ${pathname === "/contact" ? "text-blue-500 font-semibold" : ""}`}
             >
               Contact
             </Link>
@@ -55,7 +55,7 @@ export default function Navbar() {
           <li>
             <a
               href="https://forms.gle/kaBo2Q4aLyvLgSqr7"
-              className="bg-blue-500 text-white px-2 py-1 md:px-3 md:py-1 rounded hover:bg-blue-600 transition-colors text-sm md:text-base"
+              className="bg-blue-500 text-white px-2 py-1 md:px-3 md:py-1 rounded hover:bg-blue-600 transition-colors text-xl"
               target="_blank"
               rel="noopener noreferrer"
             >
